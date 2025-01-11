@@ -331,3 +331,24 @@ padding: 80px 100px;
     border: none;
 }
 /* subscribe end */
+
+/* footer start */
+footer{
+    text-align: center;
+    margin-top: 80px;
+    padding: 50px 100px;
+    background-color: white;
+
+}
+footer p{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap:24px;
+    cursor: pointer;
+}
+/* footer end */
