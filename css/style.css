@@ -213,6 +213,71 @@ transition: .3s all ease-in;
 }
 .recent-card-content button:hover{
     background-color: lightseagreen;
-
 }
 /* recent news end */
+
+/* donate today start */
+.doante-today{
+    margin-top: 80px;
+}
+.donate-title{
+    text-align: center;
+}
+.donate-title h2{
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.donate-title p{
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.donate-container{
+    display: flex;
+    gap:24px;
+    justify-content: center;
+   
+}
+.item{
+    font-size: 30px;
+    border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+padding: 40px;
+background: #FFF;
+margin-bottom: 24px;
+}
+.custome-bg{
+    background: #C6E4D6;
+}
+
+.doante-today input{
+    display: block;
+    width: 1032px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 40px;
+    border: none;
+    border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+background: #FFF;
+font-size: 20px;
+color:#6A7972;
+margin-bottom: 32px;
+}
+.donate-btn{
+    text-align: center;
+}
+.donate-btn button{
+    border-radius: 8px;
+border: 1px solid rgba(14, 14, 14, 0.10);
+padding: 17px 34px;
+background: #006A50;
+color:white;
+font-size: 18px;
+font-weight: 600;
+cursor: pointer;
+transition: .3s all ease-in;
+}
+.donate-btn button:hover{
+    background-color: #5490F5;
+}
+/* donate today end */
