@@ -12,6 +12,7 @@
 }
 body{
     font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
 }
 main{
     max-width: 1280px;
@@ -75,9 +76,7 @@ margin-bottom: 80px;
 /* header end */
 
 /* vision start */
-.vision{
 
-}
 .vision-title h2{
     font-size: 40px;
     margin-bottom: 24px;
@@ -89,6 +88,8 @@ margin-bottom: 80px;
 .vision-card{
     display: flex;
     gap: 24px;
+    margin-bottom: 32px;
+    align-items: center;
 }
 .card{
     background: rgba(84, 144, 245, 0.20);
@@ -119,5 +120,35 @@ border-radius: 16px;
     font-weight: 600;
     color: white;
     border: none;
+    cursor: pointer;
+    transition: .3s all ease-in;
+}
+.card button:hover{
+    background-color: transparent;
+    color: black;
 }
 /* vision end */
+
+/* quote start */
+.quote{
+    border-radius: 16px;
+border: 1px solid rgba(14, 14, 14, 0.15);
+padding: 48px 24px;
+background: #FFF;
+background-image: url(/img/quote-bg.png);
+background-repeat: no-repeat;
+
+}
+.quote-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #3E3E3E;
+    margin-bottom: 12px;
+}
+.quote-container h3{
+    font-size: 24px;
+    color: #3E3E3E;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+/* quote end */
