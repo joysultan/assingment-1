@@ -281,3 +281,53 @@ transition: .3s all ease-in;
     background-color: #5490F5;
 }
 /* donate today end */
+
+/* subscribe start */
+.subscribe{
+    margin-top: 80px;
+    border-radius: 24px;
+background: #C6E4D6;
+padding: 80px 100px;
+}
+.subscribe-content {
+    text-align: center;
+}
+.subscribe-content h2{
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.subscribe-content p{
+    line-height: 24px;
+    color:#6A7972;
+}
+.form-container{
+    text-align: center;
+    margin-top: 25px;
+}
+.form-container p{
+    color:#6A7972;
+    margin-top: 25px;
+    
+}
+#subscribe{
+    border-radius: 0px 8px 8px 0px;
+    background: #006A50;
+    padding: 17px 34px;
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    margin-left: -7px;
+    border: none;
+    transition: .3s all ease-in;
+    cursor: pointer;
+}
+#subscribe:hover{
+    background-color: #5490F5;
+}
+#email{
+    width: 600px;
+    padding: 18px 40px;
+    border-radius: 8px 0px 0px 8px;
+    border: none;
+}
+/* subscribe end */
